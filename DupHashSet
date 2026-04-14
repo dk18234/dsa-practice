@@ -1,4 +1,4 @@
-import java.util.HashSet
+import java.util.HashSet;
 public class DupHashSet{
 
     public static boolean containsDuplicate(int [] nums){
@@ -11,7 +11,7 @@ public class DupHashSet{
         }
         return false;
     }
-
+    
     public static void main(String args[]){
 
         int[] nums = {90,67,89,34,24,127,67};
